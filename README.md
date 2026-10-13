@@ -26,7 +26,7 @@ Light-theme, Play Store-inspired responsive web app. Public homepage, search, pe
 - Edit/delete from dashboard. Drafts are visible only to authenticated admins through RLS.
 - Icon/screenshots are hotlinked from third-party URLs; only use sources permitting hotlinking. Some image providers block embeds. Public content is not stored locally.
 
-## Advertising and verification
+## Advertising and verification,
 - `AdSlot` is a clearly labeled placeholder; it **does not serve ads**. Integrate approved ad tags according to the provider's policies after approval; never disguise ads as download buttons.
 - The countdown **does not verify a human**. For actual bot checks use Cloudflare Turnstile with server-side token verification.
 - Timers are a client-side UX feature, not a security gate, and can be bypassed by directly opening a URL. Do not claim otherwise.
